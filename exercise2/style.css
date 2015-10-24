@@ -6,6 +6,8 @@ h1 {
 	text-align: center;
 	font-family: Verdana;
 	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: .5px;
 	color:#700000;
 }
 
@@ -13,11 +15,18 @@ p {
 	text-align: center;
 	font-family: Verdana;
 	font-size: 12px;
+	font-style: italic;
+	line-height: 3px;
 	margin-top: -20px;
+}
+img {
+    max-width: 100%;
 }
 .container{
 	position: fixed;
-	font-size: 16px;
+	font-size: 13px;
+	text-transform: capitalize;
+	font-family: Verdana;
 }
 a:hover{
 	font-weight:bold;
@@ -32,12 +41,11 @@ a:link{
 	text-decoration: none;
 	color: black;
 }
-div{
-	
-}
 
 div li{
 	text-align: center;
+	font-family: Verdana;
+	
     
 }
 div#one{
@@ -49,3 +57,28 @@ img.displayed{
 	margin-left: auto;
 	margin-right: auto;
 }
+a#top {
+width: 100px;
+height: 100px;
+background: #700000;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+border-radius: 100px;
+display: block;
+margin: 20px auto;
+text-align: center;
+}
+
+a#top:hover {
+background: black;
+color: #FAEBD7;
+}
+
+a#top span {
+display: block;
+padding-top: 37px;
+}
+
+a#top {text-decoration: none;
+font-size: 20px;
+color: white}
