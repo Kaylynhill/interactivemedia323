@@ -4,75 +4,423 @@
     <head>
         <title>Exercise 3</title>
         <style>
-        	.logo{
-        		background:red;
-        		width: 65px;
-        		height: 30px;
-        		display: inline-block;
-
+        	body{
+        		background-color: #F5F5F5;
         	}
+
+        	#container{
+        		background-color: #FFFFFF;
+        		position: relative;
+        		display: block;
+        		min-height: 45px;
+        		max-height: 45px;
+        		overflow-y: hidden;
+        		margin-top: -8px;
+        		margin-bottom: 10px;
+        	}
+
+        	.subcont{
+        		margin: 9px auto;
+        	}
+
+        	.logo{
+        		background: red;
+        		width: 65px;
+        		height: 32px;
+        		border-radius: 10%;
+        		position: absolute;
+        		display: inline-block;
+        		margin-left: 60px;
+        	}
+
         	.dropd{
-        		background:#D3D3D3;
+        		background: #D3D3D3;
         		width: 20px;
-        		height: 30px;
+        		height: 32px;
+        		border-radius: 10%;
+        		position: absolute;
         		display: inline-block;
         		float: left;
-        		margin-left: 30px;
-        		margin-right: 15px;
+        		margin-left: 28px;	
         	}
+
         	.search{
-        		width:583px;
+        		width: 583px;
         		height: 27px;
-        		border:.5px solid #D3D3D3;
+        		border: .5px solid #D3D3D3;
+        		position: absolute;
         		display: inline-block;
-        		margin-left: 100px;
+        		margin-left: 220px;
         	}
+
         	.searchbut{
         		width: 65px;
         		height: 27px;
+        		border-radius: 5%;
         		border: .5px solid #D3D3D3;
-        		background: #DCDCDC;
+        		background: #F5F5F5;
+        		position: absolute;
         		display: inline-block;
-        		margin-left: 819px;
-        		margin-top: -35px;
-        	}
-        	.upload{
-        		width: 65px;
-        		height: 25px;
-        		border: .5px solid #D3D3D3;
-        		background:#DCDCDC;
-        		display: inline-block;
-        		float: right;
-        		margin-left: 30px;
-        		margin-right: 80px;
-        		padding-right: 80px;
-        		margin-top: -35px;
-        	}
-        	.login{
-        		width: 65px;
-        		height: 25px;
-        		border: .5px solid #D3D3D3;
-        		background:#DCDCDC;
-        		display: inline-block;
-        		margin-left: 30px;
-        		margin-right: 15px;
-        		margin-top: -35px;
+        		margin-left: 800px;
         	}
 
+        	.upload{
+        		width: 54px;
+        		height: 27px;
+        		border-radius: 5%;
+        		border: .5px solid #D3D3D3;
+        		background: #F5F5F5;
+        		position: absolute;
+        		display: inline-block; 		
+        		margin-left: 1275px;
+        	}
+
+        	.login{
+        		width: 54px;
+        		height: 27px;
+        		border-radius: 5%;
+        		border: .2px solid #246BB2;
+        		background: #246BB2;
+        		position: absolute;
+        		display: inline-block;
+        		margin-left: 1345px;
+        	}
+
+        	#contain{
+        		position: relative;
+        		width: 1280px;
+        		margin-left: auto;
+        		margin-right: auto;
+        	}
+
+        	ul, strong, a{
+			color: #999999;
+			font-weight: bold;
+			}
+
+			ul {
+			list-style-type: none;
+			display: inline-block;
+			}
+
+			.next{
+				margin-left: -25px;
+			}
+
+			.vname{
+				display: inline-block;
+				margin-top: -95px;
+				margin-left: -35px; 
+			}
+
+			.vtname{
+				display: inline-block;
+				margin-top: -95px;
+				margin-left: 103px;
+			}
+
+			.vtitle{
+				margin-left: -25px;
+			}
+
+			.usertitle{
+				margin-top: -95px;
+				margin-left: 40px;
+			}
+
+			.views{
+				margin-top: -50px;
+				margin-left: 660px;
+			}
+
+			.feature{
+				width: 854px;
+				height: 480px;
+				background-color: #696969;
+				margin-top: 0px;
+				display: inline-block;
+				position: absolute;
+			}
+
+			.titlecon{
+				width: 854px;
+				height: 150px;
+				background-color: #FFFFFF;
+				margin-top: 493px;
+				display: inline-block;
+				position: relative;
+			}
+
+
+			.sidecon{
+				background-color: #FFFFFF;
+				width: 420px;
+				height: 1000px;
+				display: inline-block;
+				position: absolute;
+				margin-left: 866px;
+			}
+
+			.v{
+				background-color: #246BB2;
+				width: 30px;
+				height: 13px;
+				border-radius: 30%;
+				margin-left: 335px;
+				display: inline-block;
+			
+			}
+
+			.vone{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				display: inline-block;
+			}
+
+			.vtwo{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				margin-top: 20px;
+			}
+
+			.vthree{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+		
+			.vfour{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+
+			.vfive{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+
+			.vsix{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+
+			.vseven{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+
+			.veight{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+
+			.vnine{
+				background-color: #696969;
+				width: 120px;
+				height: 68px;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+
+			.userimage{
+				background-color: #696969; 
+				width: 50px;
+				height: 50px;
+				margin-left: 15px;
+				margin-top: -8px;
+			}
+
+			.subscribe{
+				background-color: red;
+				width: 65px;
+				height: 20px;
+				display: inline-block;
+				position: absolute;
+				margin-top: -20px;
+				margin-left: -13px;
+			}
+
+			.subnum{
+				border: .5px solid #D3D3D3; 
+				width: 50px;
+				height: 18px;
+				display: inline-block;
+				position: absolute;
+				margin-top: -20px;
+				margin-left: 52px;
+			}
 
         </style>
 	</head>
 
 <body>
-        <div class="logo"></div>
-        <div class="dropd"></div>    
-        <div class="search"></div>
-        <div class="searchbut"></div>
-        <div class="upload"></div>
-        <div class="login"></div>
+        <div id="container">
+        	<div class="subcont">
+       	 		<div class="logo">
+       			</div>
+
+        		<div class="dropd">
+       			</div>    
+
+       			<div class="search">
+       			</div>
+
+       			<div class="searchbut">
+       			</div>
+
+        		<div class="upload">
+        		</div>
+
+        		<div class="login">
+        		</div>
+        	</div>
+        </div>
         
+        <div id="contain">
+			<div class="feature">
+        	</div>
+
+  				<div class="sidecon">
+
+  						<ul class="next">
+  							<li>...<li>
+  						</ul>
+
+					<div class="v">
+					</div>
+
+        			<div class="vone">
+        			</div>
+
+        				<ul class="vname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+        			<div class="vtwo">
+        			</div>
+
+        				<ul class="vtname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+					<div class="vthree">
+        			</div>
+
+        				<ul class="vtname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+        			<div class="vfour">
+        			</div>
+
+        				<ul class="vtname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+        			<div class="vfive">
+        			</div>
+
+        				<ul class="vtname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+        			<div class="vsix">
+        			</div>
+
+        				<ul class="vtname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+        			<div class="vseven">
+        			</div>
+
+        				<ul class="vtname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+        			<div class="veight">
+        			</div>
+
+        				<ul class="vtname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+        			<div class="vnine">
+        			</div>
+
+        				<ul class="vtname">
+  							<li>...<li>
+  							<li>...<li>
+  							<li>...<li>
+  						</ul>
+
+        		</div>
+
+        	<div class="titlecon">
+
+        			<ul class="vtitle">
+  							<li>...<li>
+  							
+  					</ul>
+
+  				<div class="userimage">
+  				</div>
+
+  					<ul class="usertitle">
+  						<li>...<li>
+  					</ul>
+
+  				<div class="subscribe">
+  				</div>
+
+  				<div class="subnum">
+  				</div>
+
+  					<ul class="views">
+  						<li>...<li>
+  					</ul>
+
+        	</div>
 
 
+        </div>
 </body>
 
     </html>
