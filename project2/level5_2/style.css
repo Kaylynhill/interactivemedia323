@@ -1,0 +1,76 @@
+.container{
+    float:right;
+    width:600px;
+ 
+    overflow: hidden;
+    letter-spacing: 100px;
+    color: #E0A458;
+    line-height: 10px;
+    opacity: .4;
+}
+
+.being{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: verdana;
+	color: #2D3047;	
+	margin: auto;
+	text-transform: uppercase;
+	letter-spacing: 75px;
+	line-height: 50px;
+	float: right;
+	
+}
+
+.scroll{
+	font-size: 40px;
+	font-family: times;
+	font-weight: normal;
+	line-height: 50px;
+	width: 500px;
+    height: 80px;
+    overflow: scroll;
+    text-transform: lowercase;
+    opacity: .7;
+    line-height: 10px;
+    float:right;
+}
+
+
+.bigs{
+	font-size: 90px;
+	font-family: verdana;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 100px;
+	
+	line-height: 40px;	
+	opacity: .8;
+	color: #419D78;
+	
+}
+
+.believe{
+	font-size: 100px;
+	font-family: franklin gothic;
+	font-weight: bold;
+	line-height: 600px;
+	text-transform: uppercase;
+	display: block;
+	opacity: .4;
+  	position: relative;
+  	line-height: 20px;
+  	color: #E8735E;
+  	float:right;
+  	margin-top: 50px;
+ }
+
+.yourself{
+	font-size: 400px;
+	margin-left: 20px;
+	line-height: 600px;
+	color: #540303;
+	letter-spacing: 50px;
+	line-height: 300px;
+
+}

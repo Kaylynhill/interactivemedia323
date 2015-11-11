@@ -1,0 +1,104 @@
+.scroll { 
+	font-size: 90px; 
+    width: 65px;
+    height: 60px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.scroll1 { 
+	font-size: 20px;  
+    width: 65px;
+    height: 60px;
+    overflow: scroll;
+	display: inline-block;
+}
+
+.scroll2 {
+	font-size: 20px; 
+	font-family: Verdana;    
+    width: 65px;
+    height: 60px;
+    overflow: scroll;
+   display: inline-block;
+}
+
+.scroll3 {  
+font-size: 20px; 
+	font-family: Verdana; 
+    width: 65px;
+    height: 60px;
+    overflow: scroll;
+    margin: auto;
+    display: inline-block;
+}
+
+.scroll4 { 
+font-size: 20px; 
+	font-family: Verdana;  
+    width: 65px;
+    height: 60px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.scroll5 {   
+    width: 65px;
+    height: 60px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.scroll6 {  
+	font-size: 90px; 
+    width: 65px;
+    height: 60px;
+    overflow: scroll;
+    margin: auto;
+}
+
+.scroll7 {   
+    width: 65px;
+    height: 50px;
+    overflow: scroll;
+    margin: auto;
+}
+.scroll8 {   
+    width: 65px;
+    height: 50px;
+    overflow: scroll;
+    margin: auto;
+}
+
+.scroll9 {   
+    width: 65px;
+    height: 50px;
+    overflow: scroll;
+    margin: auto;
+}
+.scroll10 {   
+    width: 65px;
+    height: 50px;
+    overflow: scroll;
+    margin: auto;
+}
+.scroll11 {   
+    width: 65px;
+    height: 50px;
+    overflow: scroll;
+    margin: auto;
+}
+.scroll12 {  
+	font-size: 90px; 
+    width: 65px;
+    height: 60px;
+    overflow: scroll;
+    margin: auto;
+}
+
+
+body {
+	font-size: 20px;
+	font-family: Verdana;
+	font-weight: bold;
+}

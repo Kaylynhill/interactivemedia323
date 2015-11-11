@@ -1,0 +1,38 @@
+.container{
+	width: 600px;
+
+}
+
+.being{
+	font-size: 75px;
+	font-weight: bold;
+	font-family: verdana;
+}
+.smash{
+	font-size: 40px;
+	font-family: times;
+	font-weight: normal;
+	line-height: 50px;
+
+}
+
+.bigs{
+	font-size: 90px;
+	font-family: times;
+	font-weight: bold;
+	line-height: 100px;
+}
+
+.believe{
+	font-size: 100px;
+	font-family: times;
+	font-weight: bold;
+	line-height: 600px;
+	text-transform: uppercase;
+	float:right;
+	display: block;
+}
+
+.yourself{
+	margin: auto;
+}

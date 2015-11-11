@@ -1,0 +1,13 @@
+#container {
+ width:50%;
+ background:#FFFFCC;
+}
+
+.list {
+ float:left;
+ width:49.9%;
+}
+
+.list div {
+	border:1px solid #000
+}

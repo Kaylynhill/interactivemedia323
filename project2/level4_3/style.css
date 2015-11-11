@@ -1,0 +1,21 @@
+.smash{
+	font-size: 150px;
+	font-family: Verdana;
+	font-weight: bold;
+	line-height: 8px;
+	letter-spacing: 30px;
+}
+
+.bigs{
+	font-size: 200px;
+	font-family: Georgia;
+	font-weight: normal;
+	line-height: 75px;
+}
+
+.believe{
+	font-size: 700px;
+	font-family: Courier;
+	font-weight: bold;
+	line-height: 150px;
+}

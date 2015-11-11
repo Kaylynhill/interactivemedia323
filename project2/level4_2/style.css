@@ -1,0 +1,14 @@
+div.scroll {
+    width: 400px;
+    height: 250px;
+    overflow: scroll;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body {
+	font-size: 100px;
+	font-family: Verdana;
+	font-weight: bold;
+}

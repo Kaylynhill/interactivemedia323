@@ -1,0 +1,67 @@
+.container{
+	color: #19AC9D;
+	margin: auto;
+}
+
+.being{
+	font-size: 75px;
+	font-weight: bold;
+	font-family: verdana;
+	color: #540303;	
+	margin: auto;
+	text-transform: uppercase;
+	
+}
+
+.scroll{
+	font-size: 40px;
+	font-family: times;
+	font-weight: normal;
+	line-height: 50px;
+	width: 500px;
+    height: 80px;
+    overflow: scroll;
+    text-transform: lowercase;
+    opacity: .7;
+
+}
+
+
+.bigs{
+	font-size: 90px;
+	font-family: times;
+	font-weight: bold;
+	line-height: 100px;
+}
+
+.believe{
+	font-size: 100px;
+	font-family: verdana;
+	font-weight: bold;
+	line-height: 600px;
+	text-transform: uppercase;
+	display: block;
+	opacity: .4;
+  	position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 800px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 800px;}
+}
+
+.yourself{
+	font-size: 400px;
+	margin: auto;
+	line-height: 600px;
+	color: #540303;
+
+}

@@ -1,0 +1,27 @@
+.container{
+	width: 600px;
+	margin: auto;
+
+}
+.smash{
+	font-size: 80px;
+	font-family: times;
+	font-weight: normal;
+	line-height: 50px;
+
+}
+
+.bigs{
+	font-size: 200px;
+	font-family: times;
+	font-weight: bold;
+	line-height: 100px;
+}
+
+.believe{
+	font-size: 700px;
+	font-family: times;
+	font-weight: bold;
+	line-height: 600px;
+	text-transform: uppercase;
+}
