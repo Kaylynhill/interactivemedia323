@@ -1,31 +1,56 @@
-.nav-container{
-	height: 20px;
-}
-
-
-.nav-container .back{
-	width: 45px; 
- 	height: 15px; 
- 	border: 1px solid gray;
- 	display: inline-block; 
- 	float: left;
+ .title {
+ 	font-family: arial;
+ 	font-size: 60px;
+ 	font-weight: bold;
+ 	margin-bottom: 60px;
+ 	margin-left: 45px;
  	
-}
+ }
 
-.nav-container .home{
-	width: 45px; 
- 	height: 15px; 
- 	border: 1px solid gray; 
-    display: inline-block; 
- 	margin-left: 50%;
-}
 
-.nav-container .next{
-	width: 45px; 
+ .rectangle { 
+ 	width: 45px; 
  	height: 15px; 
- 	border: 1px solid gray;
+ 	background: red;
  	display: inline-block; 
- 	float: right; 
+ 	margin-right: 50px;
+ 	margin-left: 50px;
+ 	margin-bottom: 70px;
+ } 
 
-}
+.rectangle1 { 
+ 	width: 45px; 
+ 	height: 15px; 
+ 	background: orange;
+ 	display: inline-block; 
+ 	margin-right: 50px;
+ 	margin-left: 50px;
+ 	margin-bottom: 70px;
+ } 
 
+.rectangle2 { 
+ 	width: 45px; 
+ 	height: 15px; 
+ 	background: #FFD700;
+ 	display: inline-block;
+ 	margin-right: 50px;
+ 	margin-left: 50px;
+ 	margin-bottom: 70px; }
+
+.rectangle3 { 
+ 	width: 45px; 
+ 	height: 15px; 
+ 	background: green;
+ 	display: inline-block;
+ 	margin-right: 50px;
+ 	margin-left: 50px;
+ 	margin-bottom: 70px; } 
+
+ .rectangle4 { 
+ 	width: 45px; 
+ 	height: 15px; 
+ 	background: blue;
+ 	display: inline-block;
+ 	margin-right: 50px;
+ 	margin-left: 50px;
+ 	margin-bottom: 70px; } 
