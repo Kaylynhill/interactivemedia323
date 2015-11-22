@@ -1,16 +1,4 @@
-div.scroll {
-    width: 400px;
-    height: 250px;
-    overflow: scroll;
-    margin: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
-body {
-	font-size: 100px;
-	font-family: Verdana;
-	font-weight: bold;
 }
 .nav-container{
 	height: 20px;
@@ -32,6 +20,7 @@ body {
  	border: 1px solid gray; 
     display: inline-block; 
  	margin-left: 50%;
+
 }
 
 .nav-container .next{
@@ -42,4 +31,17 @@ body {
  	float: right; 
 
 }
+
+div.scroll {
+    width: 400px;
+    height: 250px;
+    overflow: scroll;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.text {
+	font-size: 100px;
+	font-family: Verdana;
+	font-weight: bold;
 
