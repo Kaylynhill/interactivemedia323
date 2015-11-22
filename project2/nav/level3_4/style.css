@@ -1,5 +1,6 @@
 #container {
  	width:50%;
+ 	margin-top: 20px;
 }
 
 .list {
@@ -14,6 +15,7 @@ a{
 }
 .nav-container{
 	height: 20px;
+	margin-bottom: 10px;
 }
 
 
