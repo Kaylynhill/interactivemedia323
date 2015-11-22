@@ -33,7 +33,7 @@
 }
 
 div.scroll {
-    width: 400px;
+    width: 470px;
     height: 250px;
     overflow: scroll;
     margin: auto;
@@ -44,4 +44,11 @@ div.scroll {
 	font-size: 100px;
 	font-family: Verdana;
 	font-weight: bold;
+}
+
+.small-text{
+	font-size: 10px;
+	font-weight: normal;
+
+}
 
