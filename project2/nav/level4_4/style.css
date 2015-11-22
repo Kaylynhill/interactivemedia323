@@ -6,25 +6,28 @@
 }
 .smash{
 	font-size: 80px;
-	font-family: times;
+	font-family: garamond;
 	font-weight: normal;
-	line-height: 50px;
+	line-height: 40px;
+	text-align: justify;
 
 }
 
 .bigs{
-	font-size: 200px;
-	font-family: times;
+	font-size: 150px;
+	font-family: sans-serif;
 	font-weight: bold;
-	line-height: 100px;
+	line-height: 160px;
+	text-align: justify;
 }
 
 .believe{
-	font-size: 700px;
-	font-family: times;
+	font-size: 500px;
+	font-family: sans-serif;
 	font-weight: bold;
 	line-height: 600px;
 	text-transform: uppercase;
+	text-align: justify;
 }
 .nav-container{
 	height: 20px;
