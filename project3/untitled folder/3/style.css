@@ -1,0 +1,31 @@
+
+.container{
+	width: 900px;
+	height: 700px;	
+	margin: auto;
+	margin-top: 100px;
+}
+
+.image{
+	opacity: .4;
+	display: inline-block;
+
+
+}
+.text{
+	float: right;
+	color:white;
+
+	font-family: Verdana;
+	font-size: 11px;
+	width: 175px;
+	display: inline-block;
+
+}
+
+body{
+	background-image: url("3.jpg");
+	background-repeat:no-repeat;
+    background-size:100%;
+}
+
